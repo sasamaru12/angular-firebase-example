@@ -9,6 +9,37 @@ img {
   opacity: 1;
 }
 h1 {
-  opacity: 0.6;
-  tab-size: 8px;
+  text-align: center;
+  tab-size: 24px;
+  margin: 40px;
+}
+.pager {
+  text-align: center;
+  span {
+    margin: 4px;
+  }
+}
+
+.swiper {
+  margin-bottom: 40px;
+}
+
+.container {
+  padding: 0  24px;
+}
+
+.name-input {
+  width: 100%;
+}
+
+.radio-group {
+  margin-bottom: 32px;
+  display: block;
+  &__item {
+    margin-right: 24px;
+  }
+}
+
+.form-footer {
+  text-align: center;
 }

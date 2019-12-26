@@ -17,7 +17,10 @@ export class CreateComponent implements OnInit {
     // 画像ループさせる？
     navigation: true,
     // 矢印だす？
-    pagination: true,
+    pagination: {
+      el: '.pager',
+      clickable: true
+    },
     centeredSlides: true,
     slidesPerView: 3
   };
